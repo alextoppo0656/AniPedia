@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AniPedia</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"/>
+
+</head>
+
+<body bgcolor="black">
+    <section id="first">
+        <div class="container box">
+            <div id="logo-button">
+                <button style="background-color: black; ">
+                    <img src="./assets/aot.png" height="50px" width="50px">
+                </button>
+            </div>
+
+            <div>
+                <center>
+                    <img src="./assets/logo2_bginv.png" height="50px" width="190px">
+                </center>
+            </div>
+
+            <div id="log-btn"><button id="log">Log in</button></div>
+        </div>
+
+        <div id="search">
+            <input type="text" id="searchInput" placeholder="Search" name="search">
+            <!-- <button>
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </button> -->
+        </div>
+        <div>
+            <ul id="resultsList"></ul>
+        </div>
+
+    </section>
+
+    <section id="third">
+        <div></div>
+    </section>
+
+    <section>
+        <nav id="nav">
+            <div class="component">
+                <button class="drop-component">Genre</button>
+                <div class="component-content">
+                    <a href="#">Action</a>
+                    <a href="#">Adventure</a>
+                    <a href="#">Comedy</a>
+                    <a href="#">Drama</a>
+                    <a href="#">Sci-Fi</a>
+                </div>
+            </div>
+
+            <div class="component">
+                <button class="drop-component">Years</button>
+                <div class="component-content">
+                    <a href="#">1980-90</a>
+                    <a href="#">1991-2000</a>
+                    <a href="#">2001-2010</a>
+                    <a href="#">2011-2020</a>
+                    <a href="#">2021-Present</a>
+                </div>
+            </div>
+
+            <div class="component">
+                <button class="drop-component">Ratings</button>
+                <div class="component-content">
+                    <a href="#">1-5</a>
+                    <a href="#">5-6</a>
+                    <a href="#">6-7</a>
+                    <a href="#">7-8</a>
+                    <a href="#">8-9</a>
+                    <a href="#">9+</a>
+                </div>
+            </div>
+        </nav>
+    </section>
+
+    <section>
+        <div id="recommedations-title">
+            <h2><center><b>Recommedations</b></center></h2>
+        </div>
+    </section>
+    
+    <script src="script.js"></script>
+</body>
+</html>
